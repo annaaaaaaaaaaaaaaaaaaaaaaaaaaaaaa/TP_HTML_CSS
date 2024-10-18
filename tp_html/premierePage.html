@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="myexternalstyle.css">
+	<title>La page de Anna</title>
+</head>
+
+<body>
+<a name="haut"></a>
+Ma premiere page avec du texte (sans style)
+<h1>Ceci est un grand titre</h1>
+<h2>Ceci est un titre plus petit</h2>
+<p>Ceci est un paragraphe</p>
+
+<a href="https://www.isep.fr">Ceci est un lien vers l'Isep</a>
+<br>
+<!-- RelativeURL_local
+Lien interne  -->
+<!-- Point d’ancrage <a name="haut"></a> Lien vers une ancre (anchor) d’une même page <a href="#haut">vers le haut</a> 
+Un endroit spécifique (point d’encrage) d’une autre page <a href="URL#haut">vers le haut</a>  -->
+
+<a href="DeuxiemePage.html"> Lien vers la Deuxieme page </a>
+
+<p> Voici le logo de l'ISEP :</p>
+<img src="https://www.isep.fr/wp-content/themes/isep/img/logo_isep.svg" width="400" height="150">
+
+<p><a href="#haut"> retour vers le haut </a></p>
+
+<p> Les parcours de formation à l'ISEP sont :</p>
+
+<ul>
+	<li>Les parcours du domaine informatique</li>
+
+	<ol type="1">
+		<li>Le parcours Ingénieur logiciel</li>
+		<li>Le parcours architecte des systèmes d'information</li>
+		<li value="a">Le parcours sécurité numérique et réseaux</li>
+	</ol>
+</ul>
+
+
+<ul style="list-style-type: disc;">
+	<li>Les parcours du domaine éléctronique et Télécom</li>
+
+	<ol>
+		<li>Le parcours systèmes embarqués</li>
+		<li>Le parcours objets et services connectés</li>
+	</ol>
+</ul>
+
+
+<ul>
+	<li>Les autres parcours</li>
+
+	<ol>
+		<li>Le parcours numérique et santé</li>
+		<li>Le parcours intelligence des données</li>
+	</ol>
+</ul>
+
+<form>
+  <fieldset>
+	<legend><h3>Votre profil:</h3></legend>
+	<br>
+	<label for="Nom"> Nom :</label>
+	<input type="texte" id="Nom" name="Nom">
+	<br>
+	<label for="Prénom"> Prénom :</label>
+	<input type="texte" id="Prénom" name="Prénom">
+	<br>
+	<label for="Login"> Login :</label>
+	<input type="texte" id="Login" name="Login">
+	<br>
+	<label for="Mot de passe"> Mot de passe :</label>
+	<input type="texte" id="Mot de passe" name="Mot de passe">
+	<br>
+	<br>
+  </fieldset>
+</form>
+<form>
+	<fieldset>
+		<legend>
+			<h3>Vos passe-temps :</h3>
+		</legend>
+
+		Pratiquez vous un sport?
+		<br>
+
+		<input type="radio" id="oui" name="sport" value="oui">
+		<label for="oui"> Oui </label>
+		<br>
+
+		<input type="radio" id="non" name="Sport?" value="non">
+		<label for="non"> Non</label>
+		<br>
+
+
+		Si oui, lesquels parmi ceux-là ?<br>
+		<input type="checkbox" id="Football"name="lesquels" value="Football">
+		<label for="Football"> Football</label><br>
+		<input type="checkbox" id="Golf" name="lesquels" value="Golf">
+		<label for="Golf"> Golf</label><br>
+		<input type="checkbox" id="Natation"name="lesquels" value="Natation">
+		<label for="Natation"> Natation </label><br>
+		<input type="checkbox" id="Cyclisme"name="lesquels" value="Cyclisme">
+		<label for="Cyclisme"> Cyclisme </label><br>
+<br>
+		Aimez-vous lire ? <br>
+		<input type="radio" id="oui" name="lire" value="oui">
+		<label for="oui"> Oui </label><br>
+		<input type="radio" id="non" name="lire" value="non">
+		<label for="non"> Non </label>
+<br>
+		Si oui, quel livre êtes-vous en train de lire ?<br>
+
+		<textarea
+			name="infos supp"
+			rows="5"
+			cols="30"
+			placeholder="Informations Supplémentaires"
+		>
+		</textarea>
+
+		<br>
+
+<button>Envoyer</button><br>
+<button>Nettoyer</button>
+
+	</fieldset>
+</form>
+<br>
+<!-- <style>
+	th, td {
+		text-align: left;
+	}
+	table, td, th {
+		border: 1px solid black;
+	}
+	table {
+		border: 1px solid grey;
+	}
+</style> -->
+<!-- <p>Quelques professeurs de l'ISEP</p> -->
+<!-- <table style="border-width: 1px; border: solid;color: grey;">
+	<tr style="border: solid; color: black; border-width: 1px;">
+		<th style="border:solid; color:black; border-width:1px;">Prénom</th>
+		<th style="border:solid; color:black; border-width:1px;">Nom</th>
+		<th style="border:solid; color:black; border-width:1px;">Adresse mail</th>
+	</tr>
+	<tr style="border: solid; color: black; border-width: 1px;">
+		<td style="border:solid; color:black; border-width:1px;">Nour</td>
+		<td style="border:solid; color:black; border-width:1px;">El Madhoun</td>
+		<td style="border:solid; color:black; border-width:1px;">nour.el-madhoun@isep.fr</td>
+	</tr>
+	<tr style="border: solid; color: black; border-width: 1px;">
+		<td style="border:solid; color:black; border-width:1px;">Hervé</td>
+		<td style="border:solid; color:black; border-width:1px;">Allanic</td>
+		<td style="border:solid; color:black; border-width:1px;">herve.allanic@isep.fr</td>
+	</tr>
+	<tr style="border: solid; color: black; border-width: 1px;">
+		<td style="border:solid; color:black; border-width:1px;">Zakia</td>
+		<td style="border:solid; color:black; border-width:1px;">Kazi</td>
+		<td style="border:solid; color:black; border-width:1px;">zakia.kazi@isep.fr</td>
+	</tr>
+</table> -->
+
+<div id="border_tab">
+	<h2>Quelques professeurs de l'ISEP</h2>
+
+	<table>
+		<tr class="firstline">
+			<th>Prénom</th>
+			<th>Nom</th>
+			<th>Adresse mail</th>
+		</tr>
+		<tr class="secondline">
+			<td>Nour</td>
+			<td>El Madhoun</td>
+			<td>nour.el-madhoun@isep.fr</td>
+		</tr>
+		<tr class="thirdline">
+			<td>Hervé</td>
+			<td>Allanic</td>
+			<td>herve.allanic@isep.fr</td>
+		</tr>
+		<tr class="lastline">
+			<td>Zakia</td>
+			<td>Kazi</td>
+			<td>zakia.kazi@isep.fr</td>
+		</tr>
+	</table>
+</div>
+
+<br>
+<br>
+voici le logo de l'isep dans une box
+<br>
+
+<img
+	class="moche"
+	src="https://www.isep.fr/wp-content/themes/isep/img/logo_isep.svg"
+/>
+
+
+
+
+<div><h2 class="Localisation">Localisation de l'ISEP</h2></div>
+<div class="Issy">
+	<h3>Issy-les-Moulineaux</h3>
+	<p> Le batiment Lorette (NDL) se situe au 10 rue de Vanves 92130 Issy-les-Moulineaux. À 5 minutes du métro Corentin Celton, l'ISEP est au cœur de la Ville Numérique, aux côtés de Microsoft, Orange, Cisco, Cap Gemini et de chaînes de télévision (TF1, France Médias Monde)…</p>
+</div>
+<div class="paris">
+	<h3>Paris 6ème arrondissement</h3>
+	<p> Le bâtiment Notre-Dame-des-Champs (NDC) se situe aux 28 rue Notre-Dame-des-Champs 75006 Paris. C'est ce bâtiment qui accueille la majorité des bureaux des associations étudiantes. Cette situation permet de profiter pleinement de la vie parisienne, l'école étant proche du jardin du Luxembourg, de Saint-Germain-des-Prés.</p>
+</div>
+
+
+<div id="images">
+	<div class="cadre">
+		<img src="mario.jpeg" alt="C'est Mario">
+		<p>Mario</p>
+	</div>
+	<div class="cadre">
+		<img src="luigi.jpeg">
+		<p>Luigi</p>
+	</div>	
+	<div class="cadre">
+		<img src="princess.jpeg">
+		<p>Princess</p>
+	</div>
+	<div class="cadre">
+		<img src="wario.jpeg">
+		<p>Wario</p>
+	</div>
+	<div class="cadre">
+		<img src="yoshi.jpeg">
+		<p>Yoshi</p>
+	</div>
+</div>
+
+
+</body>
+</html>
+

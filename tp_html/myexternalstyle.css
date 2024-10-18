@@ -1,0 +1,114 @@
+#border_tab table {
+	border: 1px solid red;
+}
+
+/*th, td, tr {
+	color: black;
+	border: solid;
+	border-width: 1px;
+}*/
+.firstline {
+	background-color:black ;
+	color: white;
+}
+.secondline{
+	background-color: lightgrey;
+	color: darkgreen;
+}
+.thirdline{
+	background-color: grey;
+	color: white;
+}
+.lastline{
+	background-color: lightgrey;
+	color: darkgreen;
+}
+
+.moche {
+	border-top: 20px solid hotpink;
+	border-right: 20px solid limegreen;
+	border-bottom: 20px solid darkred;
+	border-left: 20px solid darkblue;
+	background-color: transparent;
+	padding: 10px;
+	border-radius: 15px;
+	border-style: double;
+	width: 400px;
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.Localisation{
+	width: 50%;
+	background-color: grey;
+	color: yellow;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+.Issy{
+	width: 50%;
+	background-color: yellow;
+	color: black;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+.paris{
+	width: 50%;
+	background-color: royalblue;
+	color: white;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*.images img {
+	width: 300px;
+	height: 150px;
+	border: 2px solid grey;
+	padding: 5px;
+	margin: 10px;
+}*/
+
+.cadre img {
+	width: 300px;
+	height: 150px;
+	border: 2px solid grey;
+	padding: 5px;
+}
+
+.cadre p {
+	margin-left: 6px;
+}
+
+.cadre {
+	margin: 10px;
+}
+
+#images {
+	margin-top: 25px;
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#border_tab {
+	border: 2px solid black;
+	padding: 20px;
+	width: fit-content;
+	height: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
